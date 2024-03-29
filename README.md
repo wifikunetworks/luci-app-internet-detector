@@ -53,7 +53,7 @@ i18n-ru:
 
 **Dependences:** mailsend.
 
-    wget --no-check-certificate -O /tmp/internet-detector-mod-email_1.3-0_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/internet-detector-mod-email_1.3-0_all.ipk
+    wget --no-check-certificate -O /tmp/internet-detector-mod-email_1.3-0_all.ipk https://github.com/wifikunetworks/luci-app-internet-detector/raw/master/internet-detector-mod-email_1.3-0_all.ipk
     opkg install /tmp/internet-detector-mod-email_1.3-0_all.ipk
     rm /tmp/internet-detector-mod-email_1.3-0_all.ipk
     /etc/init.d/internet-detector restart
