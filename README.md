@@ -14,7 +14,7 @@ Internet-detector is an application for checking the availability of the Interne
 
 ## Installation notes (OpenWrt >= 21.02)
 
-    opkg update
+    opkg update && opkg remove --force-remove luci-app-internet-detector && rm /etc/config/internet-detector &&
     wget --no-check-certificate -O /tmp/internet-detector_1.3-0_all.ipk https://github.com/wifikunetworks/luci-app-internet-detector/raw/master/internet-detector_1.3-0_all.ipk
     opkg install /tmp/internet-detector_1.3-0_all.ipk
     rm /tmp/internet-detector_1.3-0_all.ipk
